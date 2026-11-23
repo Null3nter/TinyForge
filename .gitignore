@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+venv/
+ENV/
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+
+# Outputs (keep structure, ignore generated assets)
+outputs/*
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (for later frontend)
+node_modules/
+.next/
+dist/
